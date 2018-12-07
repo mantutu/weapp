@@ -1,0 +1,6 @@
+<toast id="toast"></toast>
+<button bindtap="text">text toast</button>
+<button bindtap="success">success toast</button>
+<button bindtap="error">error toast</button>
+<button bindtap="warn">warn toast</button>
+<button bindtap="info">info toast</button>

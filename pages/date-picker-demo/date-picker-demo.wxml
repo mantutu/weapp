@@ -1,0 +1,6 @@
+<view class="date_picker flex faic fjcsb">
+    <view class="left_item flex faic">日期：</view>
+    <view class="right_item f1 flex faic" bindtap="showDatePicker">{{date ? date : '请选择'}}</view>
+</view>
+<date-picker id="picker" value="{{datePickerValue}}" bindconfirm="datePickerOnSureClick" bindcancel="datePickerOnCancelClick"
+/>

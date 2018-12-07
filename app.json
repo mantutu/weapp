@@ -1,0 +1,16 @@
+{
+    "pages": [
+        "pages/canvas/canvas",
+        "pages/date-picker-demo/date-picker-demo",
+        "pages/slide-view-demo/slide-view-demo",
+        "pages/toast-demo/toast-demo",
+        "pages/actionsheet-demo/actionsheet-demo",
+        "pages/modal-demo/modal-demo",
+        "pages/loading-demo/loading-demo"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTextStyle": "black"
+    }
+}

@@ -1,0 +1,78 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "game",
+	"appid": "wxb72d3de2e259c504",
+	"projectname": "web-app",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 6,
+			"list": [
+				{
+					"id": 0,
+					"name": "日期",
+					"pathName": "pages/date-picker-demo/date-picker-demo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "canvas",
+					"pathName": "pages/canvas/canvas",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "slide-view-demo",
+					"pathName": "pages/slide-view-demo/slide-view-demo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "toast-demo",
+					"pathName": "pages/toast-demo/toast-demo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "actionsheet-demo",
+					"pathName": "pages/actionsheet-demo/actionsheet-demo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "modal-demo",
+					"pathName": "pages/modal-demo/modal-demo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "loading",
+					"pathName": "pages/loading-demo/loading-demo",
+					"query": ""
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,2 @@
+<actionsheet id="actionsheet" mask="{{false}}"></actionsheet>
+<button bindtap="open">actionsheet</button>

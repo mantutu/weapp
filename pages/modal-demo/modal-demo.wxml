@@ -1,0 +1,6 @@
+<modal id="modal"></modal>
+<button bindtap="modal1">只有内容</button>
+<button bindtap="modal2">只有标题</button>
+<button bindtap="modal3">标题+内容</button>
+<button bindtap="modal4">两个按钮</button>
+<button bindtap="modal5">提示信息Modal</button>

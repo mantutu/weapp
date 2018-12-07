@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText": "绘制海报",
+    "navigationBarBackgroundColor": "#FD8A43",
+    "navigationBarTextStyle": "white",
+    "usingComponents": {
+        "toast": "../../components/toast/toast"
+    }
+}

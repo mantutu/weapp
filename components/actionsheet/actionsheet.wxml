@@ -1,0 +1,10 @@
+<view class="actionsheet_window {{actionsheet_class}}" wx:if="{{ inited }}" style="{{ display ? '' : 'display: none;' }}"
+    bindanimationend="_onAnimationEnd">
+    <view class="actionsheet_mask" bindtap="_maskTapHandler"></view>
+    <view class="actionsheet_list {{actionsheet_list_class}}">
+        <view class="actionsheet_item flex fjcc faic" wx:for="{{buttons}}" wx:key="{{index}}" data-item="{{item}}"
+            data-index="{{index}}" catchtap="_itemTapHandler">
+            <view class="{{item.type}}_item {{item.className}}">{{item.content}}</view>
+        </view>
+    </view>
+</view>

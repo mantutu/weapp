@@ -1,0 +1,51 @@
+@import "../../app.wxss";
+
+view,
+text {
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+.toast_window {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 99;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+
+.toast_container {
+    box-sizing: border-box;
+    padding: 40rpx;
+    background-color: rgba(58, 58, 58, 0.9);
+    border-radius: 16rpx;
+}
+
+.toast_content {
+    font-size: 32rpx;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    min-width: 184rpx;
+    max-width: 500rpx;
+}
+
+.toast_icon {
+    text-align: center;
+}
+
+.toast_icon>image {
+    width: 76rpx;
+    height: 76rpx;
+    margin: auto;
+}

@@ -1,0 +1,3 @@
+<view class="transition {{type}}" wx:if="{{ inited }}" style="{{ display ? '' : 'display: none;' }}" bindanimationend="onAnimationEnd">
+    <slot />
+</view>

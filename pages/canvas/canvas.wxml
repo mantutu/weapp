@@ -1,0 +1,14 @@
+<view class="canvas">
+    <view class="btn" bindtap="savePoster">生成海报</view>
+    <view class="btn" bindtap="showPoster">海报弹窗</view>
+    <view hidden='{{hidden}}' class='preview'>
+        <image src='{{poster}}' mode='widthFix'></image>
+        <view class="btn_wrap">
+            <button type='primary' size='mini' bindtap='close'>关闭</button>
+            <button type='primary' size='mini' bindtap='savePoster'>保存分享图</button>
+        </view>
+    </view>
+    <canvas canvas-id="step_pintuan" style="width: 570px; height: 705px;"></canvas>
+</view>
+
+<toast id="toast"></toast>

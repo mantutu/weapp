@@ -1,0 +1,13 @@
+<view class="modal_window {{modal_class}}" wx-if="{{show}}" bindanimationend="_onAnimationEnd">
+    <view class="modal_mask" bindtap="cancel"></view>
+    <view class="modal">
+        <view class="modal_body">
+            <view class="modal_title" wx:if="{{title}}">{{title}}</view>
+            <view class="modal_content" wx:if="{{content}}">{{content}}</view>
+        </view>
+        <view class="modal_btn flex faic">
+            <view class="cancel_btn flex_1" style="color: {{cancelColor}}" wx:if="{{showCancel}}" bindtap="cancel">{{cancelText}}</view>
+            <view class="confirm_btn flex_1" style="color: {{confirmColor}}" bindtap="confirm">{{confirmText}}</view>
+        </view>
+    </view>
+</view>

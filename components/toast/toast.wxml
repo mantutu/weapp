@@ -1,0 +1,10 @@
+<transition show="{{show}}">
+    <view class="toast_window flex fjcc faic">
+        <view class=" toast_container">
+            <view class="toast_icon" wx:if="{{type!='text'}}">
+                <image src="{{src}}"></image>
+            </view>
+            <view class="toast_content">{{content}}</view>
+        </view>
+    </view>
+</transition>

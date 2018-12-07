@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText": "日期",
+    "navigationBarBackgroundColor": "#FD8A43",
+    "navigationBarTextStyle": "white",
+    "usingComponents": {
+        "date-picker": "../../components/date-picker/date-picker"
+    }
+}

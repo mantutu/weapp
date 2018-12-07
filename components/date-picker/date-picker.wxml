@@ -1,0 +1,44 @@
+<view wx:if="{{showPicker}}" class="date-picker">
+    <view class="date-picker-mask" catchtouchend="_onCancel"></view>
+    <view class="date-picker-content" catchtouchstart="_onTouch">
+        <view class='date-picker-content-top flex faic fjcsb' catchtouchstart="_onTouch">
+            <view class="date-picker-content-cancel" hover-class="hover-class" catchtouchend="_onCancel">
+                取消
+            </view>
+            <view class="date-picker-content-sure" hover-class="hover-class" catchtouchend="_onClear">
+                清空
+            </view>
+            <view class="date-picker-content-sure" hover-class="hover-class" catchtouchend="_onConfirm">
+                确认
+            </view>
+        </view>
+        <view class="date-picker-content-line" catchtouchstart="_onTouch"></view>
+        <view class="date-picker-content-center" catchtouchstart="_onTouch">
+            <picker-view class="date-picker-content-item" indicator-style="height: 70rpx;" value="{{tempYearPos}}" bindchange="_onChangeYear">
+                <picker-view-column>
+                    <view wx:for="{{years}}" wx:key="*this" style="height: 70rpx; text-align:center; font-size: 36rpx; line-height:70rpx; color:#353535;">{{item}}年</view>
+                </picker-view-column>
+            </picker-view>
+            <picker-view class="date-picker-content-item" indicator-style="height: 70rpx; " value="{{tempMonthPos}}" bindchange="_onChangeMonth">
+                <picker-view-column>
+                    <view wx:for="{{months}}" wx:key="*this" style="height: 70rpx; text-align:center;  font-size: 36rpx; line-height:70rpx; color:#353535;">{{item}}月</view>
+                </picker-view-column>
+            </picker-view>
+            <picker-view class="date-picker-content-item" indicator-style="height: 70rpx; " value="{{tempDayPos}}" bindchange="_onChangeDay">
+                <picker-view-column>
+                    <view wx:for="{{days}}" wx:key="*this" style="height: 70rpx; text-align:center;  font-size: 36rpx; line-height:70rpx; color:#353535;">{{item}}日</view>
+                </picker-view-column>
+            </picker-view>
+            <picker-view class="date-picker-content-item" indicator-style="height: 70rpx;" value="{{tempHourPos}}" bindchange="_onChangeHour">
+                <picker-view-column>
+                    <view wx:for="{{hours}}" wx:key="*this" style="height: 70rpx; text-align:center; font-size: 36rpx; line-height:70rpx; color:#353535;">{{item}}时</view>
+                </picker-view-column>
+            </picker-view>
+            <picker-view class="date-picker-content-item" indicator-style="height: 70rpx;" value="{{tempMinutePos}}" bindchange="_onChangeMinute">
+                <picker-view-column>
+                    <view wx:for="{{minutes}}" wx:key="*this" style="height: 70rpx; text-align:center; font-size: 36rpx; line-height:70rpx; color:#353535;">{{item}}分</view>
+                </picker-view-column>
+            </picker-view>
+        </view>
+    </view>
+</view>

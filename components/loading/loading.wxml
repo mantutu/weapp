@@ -1,0 +1,12 @@
+<view
+    class="loading custom-class"
+    style="width: {{ size }}; height: {{ size }}"
+>
+    <view class="loading_spinner" style="color: {{ color }};">
+        <view
+            wx:for="item in 12"
+            wx:key="{{ index }}"
+            class="loading_dot"
+        ></view>
+    </view>
+</view>

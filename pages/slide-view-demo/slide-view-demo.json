@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "slide-view": "../../components/slide-view/slide-view"
+    }
+}

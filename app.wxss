@@ -1,0 +1,67 @@
+/*flex样式简写 S*/
+@import "./utils/animate.wxss";
+
+.flex {
+    display: flex;
+}
+
+.f1 {
+    flex: 1;
+}
+
+.fdc {
+    flex-direction: column;
+}
+
+.fjcs {
+    justify-content: flex-start;
+}
+
+.fjce {
+    justify-content: flex-end;
+}
+
+.fjcc {
+    justify-content: center;
+}
+
+.fjcsb {
+    justify-content: space-between;
+}
+
+.fjcsa {
+    justify-content: space-around;
+}
+
+.fais {
+    align-items: flex-start;
+}
+
+.faic {
+    align-items: center;
+}
+
+.fase {
+    align-self: flex-end;
+}
+
+.face {
+    align-content: flex-end;
+}
+
+.nowrap {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.fsk0 {
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+}
+
+.fwrap {
+    flex-wrap: wrap;
+}
+
+/*flex样式简写 E*/
